@@ -1,4 +1,4 @@
-# Kanala Geetha Pranathi | Portfolio
+# Portfolio
 
 Welcome to the repository for my personal portfolio website! I am **Kanala Geetha Pranathi**, an Aspiring Full Stack AI Engineer passionate about developing AI-driven, data-powered solutions and applying modern technologies to solve real-world problems.
 
