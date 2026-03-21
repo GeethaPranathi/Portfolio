@@ -56,7 +56,6 @@ I am actively seeking internship opportunities and would love to connect!
 - **Email:** [pranathikavyakanala@gmail.com](mailto:pranathikavyakanala@gmail.com)
 - **LinkedIn:** [Geetha Pranathi Kanala](https://www.linkedin.com/in/geethapranathi-kanala-42a4432b8)
 - **GitHub:** [@GeethaPranathi](https://github.com/GeethaPranathi)
-- **Phone:** +91 8186952134
 
 ---
 *Developed with ❤️ by Kanala Geetha Pranathi*
