@@ -58,4 +58,4 @@ I am actively seeking internship opportunities and would love to connect!
 - **GitHub:** [@GeethaPranathi](https://github.com/GeethaPranathi)
 
 ---
-*Developed with ❤️ by Kanala Geetha Pranathi*
+*Developed by Kanala Geetha Pranathi*
