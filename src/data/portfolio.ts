@@ -47,13 +47,14 @@ export const education = [
 ];
 
 export const skills = [
-  { group: "Programming Languages", items: ["Python", "Java", "SQL"] },
+  { group: "Programming", items: ["Java", "Python", "SQL"] },
+  { group: "Databases", items: ["MySQL", "MongoDB"] },
+  { group: "Backend & APIs", items: ["Flask", "FastAPI", "REST APIs"] },
+  { group: "Data Structures & Algorithms", items: ["Data Structures", "Algorithms"] },
   { group: "Web Development", items: ["HTML", "CSS", "JavaScript", "React.js"] },
-  { group: "Backend & APIs", items: ["REST API Development", "Flask", "FastAPI (basic)"] },
-  { group: "AI & Generative AI", items: ["LLM Applications", "Prompt Engineering", "Google Gemini API"] },
-  { group: "Coursework", items: ["Data Structures & Algorithms", "Machine Learning"] },
-  { group: "Databases", items: ["MongoDB", "MySQL"] },
-  { group: "Tools & Platforms", items: ["Git", "GitHub", "Vercel", "VS Code", "MS Excel", "MS Word"] },
+  { group: "Computer Science", items: ["OOP", "DBMS", "Operating Systems", "Computer Networks"] },
+  { group: "AI & GenAI", items: ["LLM Applications", "Prompt Engineering", "Google Gemini API"] },
+  { group: "Tools", items: ["Git", "GitHub", "Docker", "GCP", "VS Code"] },
 ];
 
 export const projects = [
