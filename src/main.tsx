@@ -10,7 +10,7 @@ const queryClient = new QueryClient()
 
 const router = createRouter({
   routeTree,
-  basepath: '/Portfolio/',
+  basepath: '/Portfolio',
   context: {
     queryClient,
   },
