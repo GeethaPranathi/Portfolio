@@ -24,7 +24,7 @@ export function Nav() {
           {navLinks.map((l) => (
             <a key={l.id} href={`#${l.id}`} className="rounded-lg px-3 py-2 text-sm text-muted-foreground transition-colors hover:bg-secondary hover:text-foreground">{l.label}</a>
           ))}
-          <a href="/Geetha_Pranathi_Resume.pdf" target="_blank" rel="noreferrer" className="bg-brand-gradient ml-2 rounded-lg px-4 py-2 text-sm font-semibold text-primary-foreground transition-opacity hover:opacity-90">View Resume</a>
+          <a href={`${import.meta.env.BASE_URL}Geetha_Pranathi_Resume.pdf`} target="_blank" rel="noreferrer" className="bg-brand-gradient ml-2 rounded-lg px-4 py-2 text-sm font-semibold text-primary-foreground transition-opacity hover:opacity-90">View Resume</a>
         </div>
 
         <button aria-label="Toggle menu" onClick={() => setOpen((v) => !v)} className="glass rounded-lg p-2 lg:hidden">
@@ -39,7 +39,7 @@ export function Nav() {
               <a key={l.id} href={`#${l.id}`} onClick={() => setOpen(false)} className="rounded-lg px-3 py-2 text-sm text-muted-foreground hover:bg-secondary hover:text-foreground">{l.label}</a>
             ))}
           </div>
-          <a href="/Geetha_Pranathi_Resume.pdf" target="_blank" rel="noreferrer" className="bg-brand-gradient mt-3 block rounded-lg py-2.5 text-center text-sm font-semibold text-primary-foreground">View Resume</a>
+          <a href={`${import.meta.env.BASE_URL}Geetha_Pranathi_Resume.pdf`} target="_blank" rel="noreferrer" className="bg-brand-gradient mt-3 block rounded-lg py-2.5 text-center text-sm font-semibold text-primary-foreground">View Resume</a>
         </div>
       )}
     </header>

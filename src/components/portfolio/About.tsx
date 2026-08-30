@@ -49,7 +49,7 @@ export function About() {
             {/* The Image Container (Fades and Scales in) */}
             <div className="relative z-10 w-full h-full rounded-full overflow-hidden bg-background m-[2px] opacity-0 animate-[fadeInScale_1s_ease-out_forwards]">
               <img 
-                src="/gp-photo.jpeg" 
+                src={`${import.meta.env.BASE_URL}gp-photo.jpeg`} 
                 alt="Geetha Pranathi" 
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"
               />

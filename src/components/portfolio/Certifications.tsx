@@ -9,7 +9,7 @@ export function Certifications() {
 
       <div className="mt-12 grid gap-5 sm:grid-cols-2">
         {certifications.map((c) => (
-          <a key={c.name} href={c.link} target="_blank" rel="noreferrer" className="glass card-hover group flex gap-4 rounded-2xl p-6 relative">
+          <a key={c.name} href={c.link?.startsWith('/') ? `${import.meta.env.BASE_URL}${c.link.slice(1)}` : c.link} target="_blank" rel="noreferrer" className="glass card-hover group flex gap-4 rounded-2xl p-6 relative">
             <span className="bg-amber/15 text-amber flex size-10 shrink-0 items-center justify-center rounded-xl transition-colors group-hover:bg-amber/25">
               <Award className="size-5" />
             </span>

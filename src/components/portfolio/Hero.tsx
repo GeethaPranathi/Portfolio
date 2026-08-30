@@ -22,7 +22,7 @@ export function Hero() {
         <p className="mx-auto mt-7 max-w-2xl text-sm leading-relaxed text-muted-foreground sm:text-base">{profile.intro}</p>
 
         <div className="mt-9 flex flex-wrap items-center justify-center gap-3">
-          <a href="/Geetha_Pranathi_Resume.pdf" download className="bg-brand-gradient shadow-glow inline-flex items-center gap-2 rounded-xl px-5 py-3 text-sm font-semibold text-primary-foreground transition-opacity hover:opacity-90">
+          <a href={`${import.meta.env.BASE_URL}Geetha_Pranathi_Resume.pdf`} download className="bg-brand-gradient shadow-glow inline-flex items-center gap-2 rounded-xl px-5 py-3 text-sm font-semibold text-primary-foreground transition-opacity hover:opacity-90">
             <Download className="size-4" /> Download Resume
           </a>
           <a href="#projects" className="glass inline-flex items-center gap-2 rounded-xl px-5 py-3 text-sm font-semibold transition-colors hover:bg-secondary">

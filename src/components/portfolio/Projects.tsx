@@ -76,7 +76,7 @@ export function Projects() {
                 <div className="absolute inset-0 opacity-[0.02]" style={{ backgroundImage: 'radial-gradient(circle at 2px 2px, white 1px, transparent 0)', backgroundSize: '24px 24px' }}></div>
                 
                 <img 
-                  src={p.image} 
+                  src={p.image.startsWith('/') ? `${import.meta.env.BASE_URL}${p.image.slice(1)}` : p.image} 
                   alt={`${p.title} Preview`}
                   className="relative z-10 h-auto w-full max-h-full object-contain rounded-xl shadow-2xl border border-white/5 transition-transform duration-700 hover:scale-[1.03]"
                   loading="lazy"
