@@ -1,9 +1,9 @@
 {
   "leetcode": {
-    "totalSolved": 256,
-    "easySolved": 147,
-    "mediumSolved": 93,
-    "hardSolved": 16,
+    "totalSolved": 264,
+    "easySolved": 151,
+    "mediumSolved": 96,
+    "hardSolved": 17,
     "ranking": "N/A"
   },
   "github": {
@@ -14,5 +14,5 @@
     "problemsSolved": 24,
     "codingScore": 79
   },
-  "lastUpdated": "2026-09-22T02:15:38.653Z"
+  "lastUpdated": "2026-09-23T02:15:47.129Z"
 }
