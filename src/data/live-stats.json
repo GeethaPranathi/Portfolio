@@ -1,8 +1,8 @@
 {
   "leetcode": {
-    "totalSolved": 323,
+    "totalSolved": 325,
     "easySolved": 195,
-    "mediumSolved": 109,
+    "mediumSolved": 111,
     "hardSolved": 19,
     "ranking": "N/A"
   },
@@ -14,5 +14,5 @@
     "problemsSolved": 24,
     "codingScore": 79
   },
-  "lastUpdated": "2026-11-23T04:34:02.387Z"
+  "lastUpdated": "2026-11-24T07:27:40.538Z"
 }
